@@ -10,6 +10,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Fundo: Um azul-escuro quase preto, para sofisticação */
+  --color-brand-bg: #020617; 
+  
+  /* Primária: O azul "Tecnológico" para links e botões principais */
+  --color-brand-blue: #3b82f6; 
+  
+  /* Secundária: Um ciano elétrico para detalhes e "vendas" */
+  --color-brand-accent: #06b6d4; 
+  
+  /* Neutros para textos e bordas */
+  --color-brand-text: #f8fafc;
+  --color-brand-muted: #94a3b8;
+  --color-brand-border: #1e293b;
 }
 
 @media (prefers-color-scheme: dark) {
